@@ -1,18 +1,13 @@
+import './Inputs.css'
 
 function Inputs() {
     return (
         <div>
-            <form>
-                <label>Name on Card:
-                    <input type="text" />
-                </label>
-                <label>Mobile Money Number:
-                    <input type="number" />
-                </label>
-                <label>Amount:
-                    <input type="text" />
-                </label>
-                <button>Create Card</button>
+            <form className="inputForm">
+                <input type="text" placeholder="Name of Card"/>
+                <input type="text" placeholder="Mobile Money Number"/>
+                <input type="text" placeholder="Amount"/>
+                <button className="card-btn">Create Card</button>
             </form>
         </div>
     )
