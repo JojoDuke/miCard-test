@@ -1,0 +1,9 @@
+.card-div{
+    background-color: #222124;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin: 6% 7%;
+    color: aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

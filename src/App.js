@@ -1,4 +1,5 @@
 import './App.css';
+import CardsList from './Components/CardsList';
 import Inputs from './Components/Inputs';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <Inputs/>
       </div>
       <div className="cards-div">
-
+        <CardsList/>
       </div>
     </div>
   );
