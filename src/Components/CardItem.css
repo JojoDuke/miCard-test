@@ -5,5 +5,7 @@
     height: 200px;
     margin: 6% 7%;
     color: aliceblue;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: #959da57a 0px 12px 24px;
+    display: flex;
+    flex-direction: column;
 }
