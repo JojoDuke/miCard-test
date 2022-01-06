@@ -7,7 +7,7 @@ function CardItem() {
             Card no.
             Name
             Expiry date
-            CSV no.
+            CSV no.s
         </div>
     )
 }
