@@ -50,7 +50,7 @@ body{
     transition: all 200ms linear;
     font-weight: 700;
 }
-.inputForm input{
+.inputForm input[type=text]{
     background-color: #483f55;
     outline: none;
     border: none;

@@ -20,7 +20,7 @@ function App() {
                 <input type="text" placeholder="Name of Card"/>
                 <input type="text" placeholder="Mobile Money Number"/>
                 <input type="text" placeholder="Amount"/>
-                <button className="card-btn" onClick={createCard}>Create Card</button>
+                <input type="button" className="card-btn" onClick={createCard} value="Create Card"/>
             </form>
         </div>
       </div>
